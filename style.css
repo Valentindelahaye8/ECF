@@ -1,0 +1,427 @@
+@font-face {
+    font-family: Overseer,computer,computer2;
+    src: url('C:/Users/Ashur/Documents/Fonts/computer.ttf') format('truetype');;
+    src: url('C:/Users/Ashur/Documents/Fonts/Overseer_Bold_Italic.otf') format('truetype');;
+    src: url('C:/Users/Ashur/Documents/Fonts/computer2.ttf') format('truetype');;
+}
+
+.chocolate-classical-sans-regular {
+    font-family: "Chocolate Classical Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: Arial, sans-serif,Overseer;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; /* Cette propriété garantit que le corps occupe au moins 100% de la hauteur de l'écran */
+    /*overflow: hidden;*/
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    font-family: "Chocolate Classical Sans";    
+    background-color: #333;
+    text-align: center;
+    font-size: 36px; /* Increase font size */
+    justify-content:center;
+}
+
+h1{ 
+    padding-right:  169px;
+    margin-left:20px;
+    letter-spacing: 5px;
+    -webkit-text-stroke: 3px rgb(231, 148, 24);
+    background-clip: text;
+    background-size: cover;
+    color: transparent; /* Increase padding for more space around the text */
+   
+}
+
+/*button.dropbtn:not(:hover) {
+    text-shadow: 0 0 5px #00ff00,
+                 0 0 10px #00ff00,
+                 0 0 20px #00ff00,
+                 0 0 40px #00ff00,
+                 0 0 80px #00ff00,
+                 0 0 90px #00ff00,
+                 0 0 100px #00ff00,
+                 0 0 150px #00ff00;
+}*/
+
+.catchphrase{
+    font-size: 50px;
+}
+
+
+nav a{
+    display: inline-block;
+}
+nav {
+    font-family:"Chocolate Classical Sans";
+    font-size:20px;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center; /* Centre le contenu de la barre de navigation horizontalement */
+}
+/*preserve*/
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li  {
+    display: inline;
+    padding: 10px;
+    text-align:left;
+}
+
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.imagecover {
+     /* Limite la largeur du contenu principal */
+    
+    min-height: calc(100vh - 177.07px);
+    background-image: url("Tigers_Rivers_Water_Spray_Run_513263_2048x1216.png") ;
+    /* Location of the image */
+
+   /* Image is centered vertically and horizontally at all times */
+    background-size: cover;
+    background-color: rgb(231, 148, 24);
+    /*background-blend-mode: multiply;*/
+   /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    background-clip: border-box;
+   /* Makes the image fixed in the viewport so that it doesn't move when 
+   the content height is greater than the image height */
+
+    
+    background-position-y:  70% ;
+   /* This is what makes the background image rescale based on its container's size */
+   
+
+    margin:0px;
+    padding:0px;
+}
+
+.catchphrase {
+    position: absolute;
+    top:300px;
+    left: 100px;
+    color: rgb(231, 148, 24);
+    width: 800px;
+    text-shadow: 3px 4px 3px rgba(0,0,0,0.78);
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.catchphrase2 {
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+    color: #FF8C00;
+    width: 600px;
+    text-shadow: 3px 4px 3px rgba(0,0,0,0.78);
+    font-size:100px;
+    font-weight: bold;
+}
+
+/* Ajoutez ces règles CSS pour styliser le bouton */
+.button1 {
+    color: rgba(255, 255, 255, 0.8); /* Couleur du texte avec une transparence de 80% */
+    border: 2px solid #000; /* Ajoute une bordure noire */
+    padding: 15px 25px; /* Ajuste le padding pour un bouton plus grand */
+    font-size: 20px; /* Ajuste la taille de la police */
+    cursor: pointer;
+    border-radius: 10px; /* Ajoute des coins arrondis */
+    background: linear-gradient(45deg, #FF8C00, #FF6347, #FF1493); /* Ajoute un dégradé de couleur */
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s ease infinite; /* Applique une animation de dégradé */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre portée au texte */
+}
+/* Ajoutez une règle pour changer la couleur du texte au survol */
+.button1:hover {
+    color: #000;
+}
+
+/* Ajoutez une animation pour le dégradé */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px; /* Réduire le padding du header */
+        font-size: 24px; /* Réduire la taille de la police du header */
+    }
+
+    nav ul li {
+        padding-right: 20px; /* Réduire l'espace entre les éléments de la barre de navigation */
+    }
+
+    main {
+        padding: 10px; /* Réduire le padding du contenu principal */
+    }
+
+}
+
+.logo{
+    width: 10%;
+    height:auto;
+
+
+}
+
+/* A etudier*/
+
+
+
+@media screen and (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .submenu {
+        display: none;
+        position: absolute;
+        background-color: #666;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .dropdown.active .submenu {
+        display: inline-block;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+}
+
+
+/*essai 1*/
+.dropdown{
+    position: relative;
+}
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;    
+    padding-block: 0px;
+    padding-inline: 0px;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+  
+  .dropdown:hover a {
+    color: black;
+}
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: inherit;
+    z-index: 1;
+    width: 100%;
+    top: 100%;
+    left:0;
+    box-sizing:border-box;
+  }
+
+  li.dropdown:hover{
+    
+    background-color: rgb(231, 148, 24); 
+      
+  }
+
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: rgb(231, 148, 24);   
+    padding: 10px; /* 10px padding */
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid black;
+    border-left:1px solid black;
+    box-sizing:content-box;
+    bottom:-1px;
+    top:-1px;
+    /* <---- */
+    margin:0px;
+  }
+
+  .dropdown-content a:first-child{
+    border-top: 1px solid black;;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+}
+li.dropdown:hover > .arrow {
+    transform: translateY(50%);
+    border-top:5px solid black;
+}
+  
+  .show {
+    display:block;
+    
+    }
+
+
+
+   
+/* fin de l'étude*/
+footer {
+    position:relative;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom:0;
+    margin-top:auto;
+    left:0;
+    width: 100%;
+
+}
+
+.lorem{
+position: relative;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.dropdown-content a:hover{
+    background-color: #000000;
+    color: rgb(231, 148, 24);
+   
+}
+
+
+
+
+/*GRID AREA*/
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    height:300px;
+    width:auto;
+    margin-inline: auto;    
+    border: 5px solid rgb(116, 111, 111);
+    border-style: inset;        
+    transition: transform ease-in-out 0.3s;
+    -webkit-transition:transform ease-in-out 0.3s; /* Safari and Chrome */
+    -moz-transition: transform ease-in-out 0.3s; /* Firefox */
+    -ms-transition: transform ease-in-out 0.3s;/* IE 9 */
+    -o-transition: transform ease-in-out 0.3s; /* Opera */
+    transition: transform ease-in-out 0.3s;
+   
+
+}
+.box p ,.box .flow {
+    display: grid;
+    transition: transform ease-in-out 0.3s;
+   
+}
+
+
+
+.box:hover, p,.box:hover~.flow {
+    transition-duration: ease-in-out 0.3s;
+}
+
+.box:hover{
+    
+    transform: scale(1.2);
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25); 
+}
+     .box:hover~ .flow{
+        padding-top: 40px;
+        transition: padding-top ease-in-out 0.3s;
+    }
+
+
+
+
+.grid{
+    display: grid;
+    gap: 7rem;
+    grid-template-columns: repeat(auto-fit,minmax(min(500px, 100%), 1fr));
+    padding-block:2rem;
+    margin-inline: auto;
+    justify-items: start;
+    align-items: center;
+
+
+    
+    }
+
+@media (min-width: 50em){
+    .autoflow{
+        grid-auto-flow:column;
+        grid-auto-columns:1fr;
+    }
+}
+
+/*End of GRID AREA*/
+
